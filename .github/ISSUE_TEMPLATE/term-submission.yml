@@ -1,0 +1,43 @@
+name: Defcon Term Submission
+description: Add a Defcon Term
+labels: ["dc_term"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill out the sections below to help everyone know about the new term being submitted
+  - type: textarea
+    id: description
+    attributes:
+      label: Defcon Term Being Submitted
+      placeholder: e.g Goon
+    validations:
+      required: true
+  - type: textarea
+    id: definition
+    attributes:
+      label: Defcon Community Definition For The Term
+      placeholder: |
+        - A Goon is a Defcon volunteer. Defcon goon(s) are usually tasked with making sure the conference runs smoothly.
+        - Origin: Unknown
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Link to More Details (optional)
+      placeholder:  - More details: [paste a link here to a blog or post with more details about the term]
+    validations:
+      required: false
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Confirmation
+      options:
+        - label: The term I'm submitting hasn't been submitted
+          required: true
+        - label: The term I'm submitting is community-correct in terms of grammar.
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for submitting the new term! We will update your request status once we've added it.
