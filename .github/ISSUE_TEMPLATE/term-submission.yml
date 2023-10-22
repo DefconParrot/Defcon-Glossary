@@ -23,12 +23,11 @@ body:
     validations:
       required: true
   - type: textarea
-    id: details
+    id: moreinfo
     attributes:
       label: Link to More Details (optional)
-      placeholder:  - More details[paste a link here to a blog or post with more details about the term]
-    validations:
-      required: false
+      placeholder: |
+        - More details. Paste a link here to a blog or post with more details about the term
   - type: checkboxes
     id: checks
     attributes:
