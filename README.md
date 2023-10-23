@@ -1,7 +1,7 @@
 # Defcon-Glossary
 Roots of DEF CON Lingo: The Origin Story of some of the common phrases/terms widely used within the [DEF CON](https://defcon.org) Community.
 
-[<kbd> <br> Submit a Term <br> </kbd>][https://github.com/DefconParrot/Defcon-Glossary/issues/new?assignees=&labels=dc_term&projects=&template=term-submission.yml]
+[<kbd> <br> Submit a Defcon Term ⭷ <br> </kbd>](https://github.com/DefconParrot/Defcon-Glossary/issues/new?assignees=&labels=dc_term&projects=&template=term-submission.yml)
 
 ## In progress
 
